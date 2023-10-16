@@ -3,8 +3,6 @@ import math
 import copy
 import sys
 
-
-
 dataset = pd.read_csv(sys.argv[1], sep="\t")
 X = dataset.iloc[:, 0:].values
 f = open(sys.argv[1], "r")
