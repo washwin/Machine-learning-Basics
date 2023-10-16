@@ -4,4 +4,4 @@ git:
 	git commit -m "update"
 	git push
 	git tag -a -f project001 -m "Still in progress"
-	git push -f -tags
+	git push -f --tags
